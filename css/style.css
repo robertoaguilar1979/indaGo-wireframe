@@ -1,0 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #1c1c1c;
+  line-height: 1.4;
+}
+/*# sourceMappingURL=style.css.map */

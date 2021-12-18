@@ -1,0 +1,23 @@
+// sass variables
+$primary-red: #ce1126;
+$primary-blue: #3168af;
+$primary-black: #1c1c1c;
+
+$section-block: #c4c4c4;
+$main-div-block: #5f5e5e;
+$inside-div-block: #c4c4c4;
+
+$font-color-black: #0f0f0f;
+$font-color-white: #ffffff;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: $primary-black;
+  line-height: 1.4;
+}
