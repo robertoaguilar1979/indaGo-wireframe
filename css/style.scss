@@ -4,11 +4,16 @@ $primary-blue: #3168af;
 $primary-black: #1c1c1c;
 
 $section-block: #c4c4c4;
-$main-div-block: #5f5e5e;
-$inside-div-block: #c4c4c4;
+$main-div-block: #868585;
+
+$inside-div-one: #5f5e5e;
+$inside-div-two: #c4c4c4;
+$inside-div-three: #fffbfb;
 
 $font-color-black: #0f0f0f;
 $font-color-white: #ffffff;
+
+$container: 1440px;
 
 * {
   padding: 0;
@@ -20,4 +25,358 @@ $font-color-white: #ffffff;
 body {
   color: $primary-black;
   line-height: 1.4;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  max-width: $container;
+  margin: 0 auto;
+}
+
+header {
+  background-color: $section-block;
+  margin: 0 auto;
+  height: 100vh;
+
+  /// navbar ////
+
+  nav {
+    margin: 0 auto;
+    max-width: 1440 px;
+    background-color: $main-div-block;
+    height: 120px;
+    padding: 1em;
+
+    .container {
+      max-width: $container;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0 auto;
+
+      .logo {
+        height: 58px;
+        width: 357px;
+        background-color: $inside-div-one;
+        display: flex;
+        align-items: center;
+
+        .logo-img {
+          height: 41px;
+          width: 77px;
+          background-color: $inside-div-two;
+        }
+
+        p {
+          margin-left: 1em;
+          font-size: 24px;
+          background-color: $inside-div-two;
+          padding: 0.25em;
+
+          span {
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 28px;
+            letter-spacing: 0em;
+            text-align: left;
+          }
+        }
+      }
+
+      .navigation {
+        height: 87px;
+        width: 397px;
+        background-color: $inside-div-one;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .sign-up-btn {
+          width: 208px;
+          height: 49px;
+          background-color: $inside-div-two;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+
+          p {
+            font-size: 24px;
+          }
+          span {
+            width: 63px;
+            height: 35px;
+            background-color: $inside-div-three;
+          }
+        }
+        .navigation-hamburger {
+          background-color: $inside-div-two;
+          width: 92px;
+          height: 66px;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          flex-direction: column;
+
+          .hamburger-icon {
+            width: 58px;
+            height: 32px;
+            background-color: $inside-div-three;
+          }
+          .hamburger-text {
+            background-color: $inside-div-three;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+
+  /// hero-text-area///
+  .hero-text {
+    max-width: $container;
+    height: 344px;
+    background-color: $main-div-block;
+    margin: 0 auto;
+    margin-top: 8em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    h1 {
+      width: 350px;
+      height: 275px;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 36px;
+      margin-left: 3em;
+      background-color: $inside-div-two;
+      padding: 0.5em;
+      .red {
+        color: $primary-red;
+      }
+    }
+  }
+
+  /// automated div ///
+  .hero-automated {
+    max-width: $container;
+    height: 150px;
+    background-color: $main-div-block;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 4.5em;
+    .automated-container {
+      margin-right: 7em;
+      background-color: $inside-div-two;
+      padding: 0.5em;
+    }
+
+    p {
+      font-size: 18px;
+      max-width: 480px;
+      background-color: $inside-div-three;
+      padding: 0.25em;
+    }
+    .three-bars {
+      background-color: $inside-div-three;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin-top: 1em;
+      padding: 0.5em;
+
+      .horizontal-bar {
+        width: 141px;
+        height: 12px;
+      }
+      .red-background {
+        background-color: $primary-red;
+      }
+      .gray-background {
+        background-color: $inside-div-two;
+      }
+    }
+  }
+}
+
+// buy american section //
+.buy-american {
+  background-color: $primary-blue;
+  height: 174px;
+  margin: 0 auto;
+  padding: 2em;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .buy-american-text {
+      background-color: $inside-div-two;
+      width: 526px;
+      height: 104px;
+      padding: 0.75em;
+
+      h2 {
+        background-color: $inside-div-three;
+      }
+      p {
+        font-size: 16px;
+        background-color: $inside-div-three;
+        margin-top: 0.5em;
+      }
+    }
+
+    .seperator {
+      width: 2px;
+      height: 82px;
+      background-color: $inside-div-two;
+    }
+
+    .buy-american-logo {
+      background-color: $inside-div-two;
+      width: 526px;
+      height: 104px;
+      padding: 0.75em;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      p {
+        font-size: 16px;
+        background-color: $inside-div-three;
+      }
+      .img-american-flag {
+        width: 156px;
+        height: 70px;
+        background-color: $inside-div-three;
+        margin-left: 1em;
+      }
+    }
+  }
+}
+
+// technological section //
+.technological {
+  background: url("/img/background.svg") center/cover no-repeat;
+  height: 900px;
+  padding: 3em;
+  //   display: flex;
+  //   flex-direction: column;
+  //   align-items: center;
+  //   justify-content: center;
+
+  .container {
+    background-color: $main-div-block;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 2em;
+
+    .technological-text,
+    .technological-img {
+      width: 403px;
+      height: 404px;
+      background-color: $inside-div-one;
+      padding: 2em;
+    }
+  }
+  .text-container {
+    justify-content: space-around;
+    height: 447px;
+    margin-top: 7em;
+
+    .technological-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      //   align-items: flex-start;
+      h1 {
+        font-size: 24px;
+        background-color: $inside-div-three;
+        width: 223px;
+        padding: 0.5em;
+        .blue {
+          color: $primary-blue;
+        }
+      }
+      p {
+        font-size: 12px;
+        line-height: 14px;
+        width: 306px;
+        background-color: $inside-div-three;
+        padding: 1em;
+        display: inline;
+      }
+      .btn {
+        width: 143px;
+        height: 41px;
+        background-color: $inside-div-three;
+        border: 0;
+        cursor: pointer;
+        font-size: 10px;
+        text-align: left;
+        padding-left: 1em;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .arrow {
+          width: 41px;
+          height: 41px;
+          display: inline-block;
+          background-color: $inside-div-two;
+        }
+      }
+    }
+  }
+  .threeSixty-container {
+    margin-top: 2em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 152px;
+
+    .threeSixty {
+      width: 526px;
+      height: 123px;
+      background-color: $inside-div-three;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      margin-right: 4em;
+      p {
+        background-color: $inside-div-two;
+      }
+      .bubble {
+        align-self: flex-start;
+        margin-left: 0.75em;
+        background-color: $inside-div-two;
+        p {
+          padding: 0.25em;
+          text-align: center;
+        }
+      }
+      .bars-container {
+        width: 513px;
+        height: 33px;
+        background-color: $inside-div-two;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1em;
+
+        .smallBars {
+          width: 30px;
+          height: 6px;
+          background-color: $inside-div-three;
+        }
+        .blue-bar {
+          background-color: $primary-blue;
+        }
+      }
+    }
+  }
 }

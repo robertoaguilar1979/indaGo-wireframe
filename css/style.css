@@ -9,5 +9,466 @@
 body {
   color: #1c1c1c;
   line-height: 1.4;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #c4c4c4;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+header nav {
+  margin: 0 auto;
+  max-width: 1440 px;
+  background-color: #868585;
+  height: 120px;
+  padding: 1em;
+}
+
+header nav .container {
+  max-width: 1440px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+}
+
+header nav .container .logo {
+  height: 58px;
+  width: 357px;
+  background-color: #5f5e5e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav .container .logo .logo-img {
+  height: 41px;
+  width: 77px;
+  background-color: #c4c4c4;
+}
+
+header nav .container .logo p {
+  margin-left: 1em;
+  font-size: 24px;
+  background-color: #c4c4c4;
+  padding: 0.25em;
+}
+
+header nav .container .logo p span {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+header nav .container .navigation {
+  height: 87px;
+  width: 397px;
+  background-color: #5f5e5e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header nav .container .navigation .sign-up-btn {
+  width: 208px;
+  height: 49px;
+  background-color: #c4c4c4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header nav .container .navigation .sign-up-btn p {
+  font-size: 24px;
+}
+
+header nav .container .navigation .sign-up-btn span {
+  width: 63px;
+  height: 35px;
+  background-color: #fffbfb;
+}
+
+header nav .container .navigation .navigation-hamburger {
+  background-color: #c4c4c4;
+  width: 92px;
+  height: 66px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header nav .container .navigation .navigation-hamburger .hamburger-icon {
+  width: 58px;
+  height: 32px;
+  background-color: #fffbfb;
+}
+
+header nav .container .navigation .navigation-hamburger .hamburger-text {
+  background-color: #fffbfb;
+  font-size: 14px;
+}
+
+header .hero-text {
+  max-width: 1440px;
+  height: 344px;
+  background-color: #868585;
+  margin: 0 auto;
+  margin-top: 8em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+header .hero-text h1 {
+  width: 350px;
+  height: 275px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  margin-left: 3em;
+  background-color: #c4c4c4;
+  padding: 0.5em;
+}
+
+header .hero-text h1 .red {
+  color: #ce1126;
+}
+
+header .hero-automated {
+  max-width: 1440px;
+  height: 150px;
+  background-color: #868585;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 4.5em;
+}
+
+header .hero-automated .automated-container {
+  margin-right: 7em;
+  background-color: #c4c4c4;
+  padding: 0.5em;
+}
+
+header .hero-automated p {
+  font-size: 18px;
+  max-width: 480px;
+  background-color: #fffbfb;
+  padding: 0.25em;
+}
+
+header .hero-automated .three-bars {
+  background-color: #fffbfb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 1em;
+  padding: 0.5em;
+}
+
+header .hero-automated .three-bars .horizontal-bar {
+  width: 141px;
+  height: 12px;
+}
+
+header .hero-automated .three-bars .red-background {
+  background-color: #ce1126;
+}
+
+header .hero-automated .three-bars .gray-background {
+  background-color: #c4c4c4;
+}
+
+.buy-american {
+  background-color: #3168af;
+  height: 174px;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+.buy-american .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.buy-american .container .buy-american-text {
+  background-color: #c4c4c4;
+  width: 526px;
+  height: 104px;
+  padding: 0.75em;
+}
+
+.buy-american .container .buy-american-text h2 {
+  background-color: #fffbfb;
+}
+
+.buy-american .container .buy-american-text p {
+  font-size: 16px;
+  background-color: #fffbfb;
+  margin-top: 0.5em;
+}
+
+.buy-american .container .seperator {
+  width: 2px;
+  height: 82px;
+  background-color: #c4c4c4;
+}
+
+.buy-american .container .buy-american-logo {
+  background-color: #c4c4c4;
+  width: 526px;
+  height: 104px;
+  padding: 0.75em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.buy-american .container .buy-american-logo p {
+  font-size: 16px;
+  background-color: #fffbfb;
+}
+
+.buy-american .container .buy-american-logo .img-american-flag {
+  width: 156px;
+  height: 70px;
+  background-color: #fffbfb;
+  margin-left: 1em;
+}
+
+.technological {
+  background: url("/img/background.svg") center/cover no-repeat;
+  height: 900px;
+  padding: 3em;
+}
+
+.technological .container {
+  background-color: #868585;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+.technological .container .technological-text,
+.technological .container .technological-img {
+  width: 403px;
+  height: 404px;
+  background-color: #5f5e5e;
+  padding: 2em;
+}
+
+.technological .text-container {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 447px;
+  margin-top: 7em;
+}
+
+.technological .text-container .technological-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.technological .text-container .technological-text h1 {
+  font-size: 24px;
+  background-color: #fffbfb;
+  width: 223px;
+  padding: 0.5em;
+}
+
+.technological .text-container .technological-text h1 .blue {
+  color: #3168af;
+}
+
+.technological .text-container .technological-text p {
+  font-size: 12px;
+  line-height: 14px;
+  width: 306px;
+  background-color: #fffbfb;
+  padding: 1em;
+  display: inline;
+}
+
+.technological .text-container .technological-text .btn {
+  width: 143px;
+  height: 41px;
+  background-color: #fffbfb;
+  border: 0;
+  cursor: pointer;
+  font-size: 10px;
+  text-align: left;
+  padding-left: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.technological .text-container .technological-text .btn .arrow {
+  width: 41px;
+  height: 41px;
+  display: inline-block;
+  background-color: #c4c4c4;
+}
+
+.technological .threeSixty-container {
+  margin-top: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 152px;
+}
+
+.technological .threeSixty-container .threeSixty {
+  width: 526px;
+  height: 123px;
+  background-color: #fffbfb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 4em;
+}
+
+.technological .threeSixty-container .threeSixty p {
+  background-color: #c4c4c4;
+}
+
+.technological .threeSixty-container .threeSixty .bubble {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-left: 0.75em;
+  background-color: #c4c4c4;
+}
+
+.technological .threeSixty-container .threeSixty .bubble p {
+  padding: 0.25em;
+  text-align: center;
+}
+
+.technological .threeSixty-container .threeSixty .bars-container {
+  width: 513px;
+  height: 33px;
+  background-color: #c4c4c4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1em;
+}
+
+.technological .threeSixty-container .threeSixty .bars-container .smallBars {
+  width: 30px;
+  height: 6px;
+  background-color: #fffbfb;
+}
+
+.technological .threeSixty-container .threeSixty .bars-container .blue-bar {
+  background-color: #3168af;
 }
 /*# sourceMappingURL=style.css.map */
